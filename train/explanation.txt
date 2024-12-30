@@ -1,0 +1,35 @@
+Imports and Libraries:
+
+pandas, numpy, backtesting, and os for data manipulation and backtesting.
+Loading Data:
+
+Reads and processes CSV file with price data.
+Renames columns and drops missing values.
+Defining Strategy:
+
+DualMA_Strategy: Strategy based on fast (10) and slow (50) SMAs.
+Buy when fast SMA crosses over slow SMA, sell when the opposite occurs.
+Stop-loss (2%) and take-profit (4%) set on each trade.
+Backtest Execution:
+
+Loads data, sets up backtest with initial cash and commission.
+Runs backtest and extracts trade data.
+Trade Data Formatting:
+
+Extracts and formats trade details (entry/exit prices, dates, quantities, profit/loss).
+Saves trade details to CSV file.
+Sharpe Ratio:
+
+Extracts and prints Sharpe ratio to measure risk-adjusted return.
+Sharpe Ratio Formula:
+
+Provides the formula: (Annualized Return - Risk-Free Rate) / Annualized Volatility.
+Main Execution:
+
+Runs backtest on provided dataset and prints Sharpe ratio and formula.
+
+
+
+
+
+
