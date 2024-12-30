@@ -2,7 +2,7 @@
 
 This project showcases a **trading strategy** designed to **maximize alpha** (excess returns over a benchmark) using historical price data. Leveraging a **dual moving average (SMA) crossover technique**, it optimizes entry and exit points while focusing on **maximizing the Sharpe Ratio** 📊 to balance **risk and reward**.
 
-🏆 **Award-Winning Implementation**: This strategy secured **First Prize** in a hackathon for its exceptional performance and methodology! 🎉
+🏆 Honored Recognition: This strategy was privileged to secure First Prize at the IIT Bombay hackathon, sponsored by Dhan, for its effective performance and clear methodology. 🙏✨
 
 ---
 
@@ -57,6 +57,7 @@ The **Sharpe Ratio** evaluates the strategy's **risk-adjusted return**.
 ---
 
 Output:
+
 📝 Trade details saved in a CSV file (trades.csv).
 
 📊 Sharpe ratio displayed in the console.
@@ -64,12 +65,15 @@ Output:
 ---
 
 📊 Results
+
 Sharpe Ratio: Quantifies the strategy's risk-adjusted performance.
+
 Trade Details: Logs entry/exit prices, dates, quantities, and profit/loss for each trade in a CSV file.
 
 ---
 
 Example Output
+
 Trade Details (Saved in trades.csv):
 
 | Entry Date   | Exit Date    | Entry Price | Exit Price | Quantity | P/L  |
