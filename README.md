@@ -58,6 +58,7 @@ The **Sharpe Ratio** evaluates the strategy's **risk-adjusted return**.
 
 Output:
 📝 Trade details saved in a CSV file (trades.csv).
+
 📊 Sharpe ratio displayed in the console.
 
 ---
