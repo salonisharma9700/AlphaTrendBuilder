@@ -53,3 +53,26 @@ The **Sharpe Ratio** evaluates the strategy's **risk-adjusted return**.
 ### ✅ Prerequisites
 -  **Python 3.7** or above
 -  Required libraries: `pandas`, `numpy`, `backtesting`, `os`
+
+---
+
+Output:
+📝 Trade details saved in a CSV file (trades.csv).
+📊 Sharpe ratio displayed in the console.
+
+---
+
+📊 Results
+Sharpe Ratio: Quantifies the strategy's risk-adjusted performance.
+Trade Details: Logs entry/exit prices, dates, quantities, and profit/loss for each trade in a CSV file.
+
+---
+
+Example Output
+Trade Details (Saved in trades.csv):
+
+| Entry Date   | Exit Date    | Entry Price | Exit Price | Quantity | P/L  |
+|--------------|--------------|-------------|------------|----------|------|
+| 2021-03-01   | 2021-03-05   | 150.00      | 155.00     | 100      | 500  |
+| 2021-03-10   | 2021-03-15   | 200.00      | 208.00     | 50       | 400  |
+
